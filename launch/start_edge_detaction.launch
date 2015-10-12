@@ -1,0 +1,6 @@
+<launch>
+
+  <node pkg="opencv_template" type="edge_detection_node" name="edge_detection_node" output="screen">
+  </node>
+
+</launch>

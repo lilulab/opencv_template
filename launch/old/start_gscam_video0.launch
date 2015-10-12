@@ -1,0 +1,5 @@
+<launch>
+
+<include file="$(find gscam)/examples/gscam_start_video0.launch"/>
+
+</launch>
