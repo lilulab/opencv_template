@@ -110,6 +110,7 @@ add_executable(opencv_template_node src/opencv_template_node.cpp)
 add_executable(edge_detection_node src/edge_detection.cpp)
 # add_executable(stereo_node src/stereo_minoru_node.cpp)
 add_executable(visual_compass_node src/visual_compass.cpp)
+add_executable(cam_calib_node src/cam_calib.cpp)
 
 ## Add cmake target dependencies of the executable/library
 ## as an example, message headers may need to be generated before nodes
@@ -119,6 +120,7 @@ add_executable(visual_compass_node src/visual_compass.cpp)
 target_link_libraries(opencv_template_node ${catkin_LIBRARIES})
 target_link_libraries(edge_detection_node ${catkin_LIBRARIES})
 target_link_libraries(visual_compass_node ${catkin_LIBRARIES})
+target_link_libraries(cam_calib_node ${catkin_LIBRARIES})
 
 #############
 ## Install ##
